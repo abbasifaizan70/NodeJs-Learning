@@ -2,3 +2,8 @@
 1708511829429 / New request has been recieved
 1708511836712 /asd New request has been recieved
 1708511836732 /favicon.ico New request has been recieved
+1708512140968 /home New request has been recieved
+1708512149749 / New request has been recieved
+1708512189985 / New request has been recieved
+1708512193208 /about New request has been recieved
+1708512199858 /contact New request has been recieved
