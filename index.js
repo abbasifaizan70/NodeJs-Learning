@@ -6,6 +6,16 @@ const app = express();
 const PORT = 8000;
 app.use(express.urlencoded({ extended: false }));
 
+app.use((req, res, next) => {
+  fs.appendFile(
+    "logs.txt",
+    `${Date.now()}: ${req.method}: ${req.path} \n`,
+    (err, data) => {
+      next();
+    }
+  );
+});
+
 // routes
 app.get("/api/users", (req, res) => {
   return res.json(users);
